@@ -68,7 +68,7 @@ h2 span {
 .aboutme > article{
 background-color: white;
 padding:20px;
-flex:0 0 75%;
+flex:1 1 75%;
 }
 
 .aboutme > aside{
@@ -81,7 +81,7 @@ flex:0 0 75%;
     border-right-style: solid;
     border-right-color:cadetblue;
     background-color: white;
-    flex:0 0 20%;
+    flex:1 1 20%;
 }
 
 
@@ -104,12 +104,13 @@ flex:0 0 75%;
          border-right-style: solid;
          border-right-color:cadetblue;
          background-color: white;
-         flex:0 0 20%;
+         flex:1 1 20%;
+
             }
             
     .work > aside{
                 background-color: white;
-                flex:0 0 75%;
+                flex:1 1 75%;
                 text-align: center;
             }   
             /* Styling for button in 2nd content section */
@@ -138,7 +139,8 @@ flex:0 0 75%;
          border-right-style: solid;
          border-right-color:cadetblue;
          background-color: white;
-         flex:0 0 20%;
+         flex:1 1 20%;
+         float: left;
             }
             
     .contactme > aside{
@@ -147,10 +149,10 @@ flex:0 0 75%;
                 font-weight: bold;
                 text-align: center;
                 background-color: white;
-                flex:0 0 75%;
+                flex:1 1 75%;
                 flex-direction: row;
                 justify-content: space-between;
-                
+                float: left;
             }   
     .conlinks a {
                
@@ -159,3 +161,7 @@ flex:0 0 75%;
                 padding-left: 53px;
                 padding-right: 53px;
             }
+ img {
+  max-width: 70%;
+  height: 100;
+}
