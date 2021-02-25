@@ -86,13 +86,14 @@ flex:1 1 75%;
 
 
 /* Styling for 2nd content section */
+/* @media screen and (max-width: 992px) { */
 .work {
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
     
     color:cadetblue; 
-    
-        height: 800px;
+    overflow-y: "scroll";
+    /* height: 1200px; */
 }
     .work > article {
          padding: 10px;
@@ -141,6 +142,9 @@ flex:1 1 75%;
          background-color: white;
          flex:1 1 20%;
          float: left;
+         /* position: fixed;
+        left: 0;
+        bottom: 0; */
             }
             
     .contactme > aside{
@@ -152,7 +156,7 @@ flex:1 1 75%;
                 flex:1 1 75%;
                 flex-direction: row;
                 justify-content: space-between;
-                float: left;
+                /* float: left; */
             }   
     .conlinks a {
                
@@ -164,4 +168,5 @@ flex:1 1 75%;
  img {
   max-width: 70%;
   height: 100;
+
 }
