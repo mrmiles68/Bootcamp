@@ -19,7 +19,7 @@
     color:white; 
     justify-content: flex-end;
     display: flex;
-    padding: 50px;
+    padding: 25px;
     margin-right: 10px;
 }
 
@@ -112,7 +112,7 @@ flex:1 1 75%;
     .work > aside{
                 background-color: white;
                 flex:1 1 75%;
-                text-align: center;
+                /* text-align: center; */
             }   
             /* Styling for button in 2nd content section */
 .surfreport {
