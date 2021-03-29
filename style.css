@@ -65,6 +65,14 @@ h2 span {
     height: 100px;
       
     }
+.work {
+        display: flex;
+        font-family:Arial, Helvetica, sans-serif;
+        padding: 0 0 20 0;
+        color:cadetblue; 
+        height: 100px;
+          font-size: 200%;
+        }
 .aboutme > article{
 background-color: white;
 padding:20px;
@@ -86,7 +94,7 @@ flex:1 1 75%;
 
 
 /* Styling for 2nd content section */
-/* @media screen and (max-width: 992px) { */
+/* @media screen and (max-width: 992px) {
 .work {
     display: flex;
     font-family:Arial, Helvetica, sans-serif;
@@ -94,34 +102,36 @@ flex:1 1 75%;
     color:cadetblue; 
     overflow-y: "scroll";
     /* height: 1200px; */
-}
-    .work > article {
-         padding: 10px;
+
+  #work > article {
+      margin: 0%;
+         color: cadetblue;
+         padding: 15px;
          font-family:Arial, Helvetica, sans-serif;
          font-size: 180%;
          font-weight: bold;
-         text-align: right;
+         text-align: right; 
          border-right: 4px;
          border-right-style: solid;
          border-right-color:cadetblue;
          background-color: white;
-         flex:1 1 20%;
+         /* flex:1 1 20%; */
 
             }
             
-    .work > aside{
+    /* .work > aside{
                 background-color: white;
-                flex:1 1 75%;
+                flex:1 1 75%; */ */
                 /* text-align: center; */
-            }   
+            }    */
             /* Styling for button in 2nd content section */
-.surfreport {
+/* .surfreport {
     justify-content: center;
     display: flex;
     padding: 20px;
     max-width:1200px;
     max-height:450px;
-}
+} */
 /* Styling for 3rd contect section */
 .contactme {
     display: flex;
@@ -165,8 +175,8 @@ flex:1 1 75%;
                 padding-left: 53px;
                 padding-right: 53px;
             }
- img {
+ /* img {
   max-width: 70%;
   height: 100;
 
-}
+} */
